@@ -17,7 +17,7 @@ public class TesteIf {
             System.out.println("Você é adulto(a)");
         }
         System.out.println("Você tem "+ (idade++)+ " anos");
-        System.out.println("Vocë vai fazer "+ idade+ "  anos");
+        System.out.println("Vocë vai fazer "+ idade);
 
         leitor.close();
     }
