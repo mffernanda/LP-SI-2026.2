@@ -1,3 +1,5 @@
+package dcx.ufpb.atividades;
+
 import javax.swing.JOptionPane;
 public class IMCatividade {
 

@@ -1,3 +1,5 @@
+package dcx.ufpb.atividades;
+
 import java.util.Scanner;
 
 public class TesteIf {
@@ -6,7 +8,7 @@ public class TesteIf {
         Scanner leitor = new Scanner(System.in);
         System.out.println("Qual o seu nome?");
         String nome = leitor.nextLine();
-        System.out.println("Oi "+ nome);
+        System.out.println("dcx.ufpb.atividades.Oi "+ nome);
         System.out.println("Quantos anos você tem?");
         int idade = Integer.parseInt(leitor.nextLine());
         if (idade<18){
