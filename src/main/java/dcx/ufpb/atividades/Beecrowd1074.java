@@ -21,4 +21,4 @@ public class Beecrowd1074 {
             System.out.println("NULL");
         }
     }
-}
+}a

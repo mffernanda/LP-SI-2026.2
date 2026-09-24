@@ -10,4 +10,4 @@ public class Beecrowd1009 {
         double total = salariofixo + 0.15 * vendas;
         System.out.printf("TOTAL = R$ %.2f", total);
     }
-}
+}a
