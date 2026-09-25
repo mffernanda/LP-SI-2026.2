@@ -11,4 +11,3 @@ public class Beecrowd1001 {
         leitor.close();
     }
 }
-a
