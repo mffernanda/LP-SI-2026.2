@@ -1,4 +1,4 @@
-package dcx.ufpb.atividades;
+package br.ufpb.dcx.maria;
 
 import javax.swing.JOptionPane;
 public class IMCatividade {
