@@ -1,4 +1,4 @@
-package br.ufpb.dcx.maria;
+package br.ufpb.dcx.maria.atividades;
 
 import java.util.Scanner;
 
