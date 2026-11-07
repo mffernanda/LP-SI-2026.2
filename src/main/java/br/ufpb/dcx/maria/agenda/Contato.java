@@ -32,5 +32,4 @@ public class Contato {
     public String toString() {
         return "Contato de nome "+this.nome+ " e "+this.endereco.toString();
     }
-
 }

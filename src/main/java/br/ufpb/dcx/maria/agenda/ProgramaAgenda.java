@@ -22,6 +22,7 @@ public class ProgramaAgenda {
                     Endereco end = new Endereco(logradouro,numero,bairro,"João Pessoa","Paraíba");
                     Contato c = new Contato(nome, end);
                     agenda.cadastraContato(c);
+                    System.out.println(c);
                     break;
                 case 2:
                     String nomeContato = JOptionPane.showInputDialog("Qual o nome do contato?");
@@ -54,4 +55,5 @@ public class ProgramaAgenda {
         }
         JOptionPane.showMessageDialog(null, "Até mais!");
     }
+
 }
