@@ -1,4 +1,4 @@
-package br.ufpb.dcx.maria;
+package br.ufpb.dcx.maria.atividades.exercicios1a5;
 import java.util.Scanner;
 
 public class ProgramaNotas {

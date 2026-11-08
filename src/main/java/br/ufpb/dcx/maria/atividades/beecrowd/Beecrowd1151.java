@@ -1,8 +1,8 @@
-package br.ufpb.dcx.maria;
+package br.ufpb.dcx.maria.atividades.beecrowd;
 
 import java.util.Scanner;
 
-public class Becrowd1151 {
+public class Beecrowd1151 {
     public static void main(String []args){
         Scanner leitor = new Scanner(System.in);
         int penultimo = 0;

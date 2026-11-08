@@ -1,4 +1,4 @@
-package br.ufpb.dcx.maria;
+package br.ufpb.dcx.maria.atividades.beecrowd;
 import java.util.Scanner;
 
 public class Beecrowd1001 {

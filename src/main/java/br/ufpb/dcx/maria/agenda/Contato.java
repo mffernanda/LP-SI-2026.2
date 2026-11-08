@@ -3,14 +3,16 @@ package br.ufpb.dcx.maria.agenda;
 public class Contato {
     private String nome;
     private Endereco endereco;
+    private String cpf;
 
-    public Contato(String nome, Endereco endereco) {
+    public Contato(String nome, Endereco endereco, String cpf) {
         this.nome = nome;
         this.endereco = endereco;
+        this.cpf = cpf;
     }
 
     public Contato() {
-        this("", new Endereco());
+        this("", new Endereco(),"");
     }
 
     public String getNome() {
@@ -29,7 +31,17 @@ public class Contato {
         this.endereco = endereco;
     }
 
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
     public String toString() {
-        return "Contato de nome "+this.nome+ " e "+this.endereco.toString();
+        return "Nome do Contato: "+this.nome +
+                " Endereço do Contato: " +this.endereco +
+                "Cpf do Contato: "+ this.cpf.toString();
     }
 }
